@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+
+</head>
+
+<body>
+
+<nav>
+
+<div class="logo">Elite Food Cafe</div>
+
+<div>
+<a href="index.html">Home</a>
+<a href="menu.html">Menu</a>
+<a href="gallery.html">Gallery</a>
+<a href="booking.html">Book Table</a>
+<a href="login.html">Login</a>
+</div>
+
+</nav>
+
+<div class="container">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd">
+<h3>Burger</h3>
+<button class="btn" onclick="addToCart('Burger')">Add To Cart</button>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1548365328-9f547fb0953c">
+<h3>Pizza</h3>
+<button class="btn" onclick="addToCart('Pizza')">Add To Cart</button>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1553621042-f6e147245754">
+<h3>Fries</h3>
+<button class="btn" onclick="addToCart('Fries')">Add To Cart</button>
+</div>
+
+</div>
+
+<div id="cart" class="cart-box">0</div>
+
+</body>
+</html>
